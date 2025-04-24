@@ -1,0 +1,13 @@
+services:
+  - type: web
+    name: zipstore-api
+    env: python
+    buildCommand: ""
+    startCommand: bash start.sh
+    envVars:
+      - key: ADMIN_ID
+        value: "7453370653"
+      - key: BINANCE_ID
+        value: "826167648"
+      - key: BOT_TOKEN
+        value: "7511356775:AAG8GtzIieKyOyU09lI6-s474nzCDU7yTFk"
